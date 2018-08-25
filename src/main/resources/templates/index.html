@@ -1,10 +1,11 @@
 ﻿<!DOCTYPE HTML>
-
+<html xmlns:th="http://www.thymeleaf.org">
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/calccss.css">
-<script type="text/javascript" src=“calc.js"></script>
+<link href="/css/calccss.css" th:href="@{/calccss.css}"
+	rel="stylesheet"></link>
+<script src="/js/calc.js" th:src="@{/js/calc.js}"></script>
 <title>TF電卓</title>
 </head>
 <body>
