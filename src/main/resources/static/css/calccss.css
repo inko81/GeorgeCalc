@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+button, input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
+}
+
+body{
+	font-size: 100%;
+}
+
+table{
+	border-style: none;
+	width:25%;
+
+} 
+
+input[type="button"]{
+	font-size: 150%;
+	width:100px;
+	height:75px;
+}
+
+
+input[type="text"]{
+	font-size: 200%;
+	width:415px;
+	height:75px;
+	text-align:right;
+}
